@@ -8,81 +8,162 @@
   <script>
     if(!('CSS' in window) || !CSS.supports('color', 'var(--color-var)')) {var cfStyle = document.getElementById('codyframe');if(cfStyle) {var href = cfStyle.getAttribute('href');href = href.replace('style.css', 'style-fallback.css');cfStyle.setAttribute('href', href);}}
   </script> 
-  <script src="assets/js/scripts.js"></script>
-  <script src="assets/js/components/_1_accordian.js"></script>
+<!--   <script src="assets/js/scripts.js"></script>
+  <script src="assets/js/components/_1_accordian.js"></script> -->
   <script src="https://kit.fontawesome.com/5a0bc27e0f.js" crossorigin="anonymous"></script>
 
-  <title>Digital Skills</title>
+  <title>Digital Capabilities</title>
 </head>
-<h1>Digital skills thing</h1>
-<p>This guide will help you make sense of what you can do to improve your digital skills. </p>
-<p>
-The tabbed area below will take you through 
-</p>
-<p>If you haven't yet completed the JISC tool, click the button below. </p>
-<a class="btn-fx-1" href="https://jisc.potential.ly/">
-  <div class="btn-fx-1__inner padding-y-xs padding-x-sm">
-    <span>Use the tool</span>
+<header class="header position-relative js-header ">
+  <div class="header__container container max-width-lg">
+    <div class="header__logo">
 
-    <div class="btn-fx-1__icon-wrapper" aria-hidden="true">
-      <svg class="icon margin-left-xxs" viewBox="0 0 20 20"><polyline points="8 5 13 10 8 15" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
-
-      <svg class="icon margin-left-xxs" viewBox="0 0 20 20"><polyline points="8 5 13 10 8 15" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>
+      <img src="/assets/uomlogo.png" href="http://www.manchester.ac.uk" height="100px" style="padding-top: 35px;">
+        
     </div>
+
+    <button class="btn btn--subtle header__trigger js-header__trigger" aria-label="Toggle menu" aria-expanded="false" aria-controls="header-nav">
+      <i class="header__trigger-icon" aria-hidden="true"></i>
+      <span>Menu</span>
+    </button>
+
+    <nav class="header__nav js-header__nav" id="header-nav" role="navigation" aria-label="Main">
+      <div class="header__nav-inner">
+        <div class="header__label">Main menu</div>
+        <ul class="header__list">
+          <li class="header__item"><a href="#whataredc" class="header__link">What are Digital Capabilities?</a></li>
+          <li class="header__item"><a href="#0" class="header__link">Solutions</a></li>
+          <li class="header__item"><a href="#0" class="header__link">Resources</a></li>
+          <li class="header__item"><a href="#0" class="header__link">Pricing</a></li>
+          <li class="header__item"><a href="#0" class="header__link">Contact</a></li>
+          <li class="header__item header__item--divider" aria-hidden="true"></li>
+          <li class="header__item"><a href="#0" class="btn btn--primary">Digital Capabilities Tool</a></li>
+        </ul>
+      </div>
+    </nav>
   </div>
-</a>
-<div class="tabs-v3 js-tabs">
-  <ul class="tabs-v3__controls js-tabs__controls" aria-label="Tabs Interface">
-    <li><a href="#tab1Panel1" class="tabs-v3__control js-tab-focus" aria-selected="true">Tab 1</a></li>
-    <li><a href="#tab1Panel2" class="tabs-v3__control js-tab-focus">Tab 2</a></li>
-    <li><a href="#tab1Panel3" class="tabs-v3__control js-tab-focus">Tab 3</a></li>
-    <li><a href="#tab1Panel4" class="tabs-v3__control js-tab-focus">Tab 4</a></li>
-    <li><a href="#tab1Panel5" class="tabs-v3__control js-tab-focus">Tab 5</a></li>
-  </ul>
-
-  <div class="tabs-v3__panels js-tabs__panels">
-    <section id="tab1Panel1" class="tabs-v3__panel is-visible js-tabs__panel">
-      <div class="text-component">
-        <h1>How to use the tool</h1>
-        <p>Lorem ipsum answer the questions blah blah it's very easy yadda yadda thing thing thing </p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati natus totam assumenda cumque numquam culpa officia, harum vel quibusdam recusandae, blanditiis non quae pariatur? Laborum, animi dolor tempora laboriosam minus nulla sit, hic molestias velit delectus sint aspernatur possimus soluta?</p>
-      </div>
-    </section>
-
-    <section id="tab1Panel2" class="tabs-v3__panel js-tabs__panel">
-      <div class="text-component">
-        <h1>Why are digital skills important</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, nobis! The robots are coming.</p>
-      </div>
-    </section>
-
-    <section id="tab1Panel3" class="tabs-v3__panel js-tabs__panel">
-      <div class="text-component">
-        <h1>Having difficulties</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, veritatis.</p>
-      </div>
-    </section>
-
-    <section id="tab1Panel4" class="tabs-v3__panel js-tabs__panel">
-      <div class="text-component">
-        <h1>Panel 4</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, ipsa. Maiores sit totam dignissimos perferendis recusandae quis eligendi quos expedita consequatur, natus debitis, deserunt placeat tenetur odit voluptates, ad nihil cum ipsa quae est facere, voluptate sapiente tempora a officiis. Ipsa perspiciatis aut commodi enim expedita. Saepe at cupiditate quaerat explicabo distinctio quae enim, ab impedit! Sunt, omnis, sit magnam id exercitationem mollitia alias pariatur doloremque nulla. Totam quis, animi minus error molestias sit. Quidem, dolor, aspernatur. Voluptates, magni, provident?</p>
-      </div>
-    </section>
-
-    <section id="tab1Panel5" class="tabs-v3__panel js-tabs__panel">
-      <div class="text-component">
-        <h1>Panel 5</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam modi nesciunt eum, dolores corrupti labore assumenda vel? Cupiditate fugit nihil, sunt nulla nisi blanditiis quidem, eos nesciunt. Quidem dolorem laudantium, ex fuga natus nisi error architecto saepe sapiente dolores assumenda.</p>
-      </div>
-    </section>
+</header>
+<section class="padding-y-lg">
+  <div class="container max-width-sm bg-contrast-low color-bg padding-md">
+    <article class="text-component line-height-lg v-space-md">
+      <h1>Develop your digital capabilities</h1>
+      <p class="color-black">Welcome to this guide where you will find resources to support your digital development. 
+<p class="color-black">
+        Working through this resource will help you to:</p>
+        <ul class="list list--ul color-black">
+          <li>Understand what is meant by digital capabilities </li>
+          <li>Explore your digital capabilities using the Jisc Discovery tool </li>
+          <li>Get help using the Discovery tool </li>
+          <li>Create a plan to enhance your digital capabilities  </li>
+          <li>Access further resources to support your development.</li>
+          
+          </ul> 
+        
+        <h3 id="whataredc">What are digital capabilities?</h3>
+        <p class="color-black">
+        Digital capabilities are defined by <a href="https://www.jisc.ac.uk/about">Jisc</a> as those required by individuals to <a href="https://digitalcapability.jisc.ac.uk/what-is-digital-capability/">“live, learn and work in a digital society.”</a></p>
+        <p class="color-black">
+        The Jisc Discovery tool can help us understand and explore our digital capabilities. 
+        </p>
+        <p class="color-black">This online tool will take you through a series of questions about your experience and confidence of using different digital tools and approaches.  There are no right or wrong answers, the purpose of the tool is to support your development. </p>
+    </article>
   </div>
-</div>
-  <ul class="accordion  js-accordion" data-animation="on" data-multi-items="on">
+</section>
+<section class="padding-y-xl">
+  <div class="container max-width-sm">
+    <article class="text-component line-height-lg v-space-md">
+      <h1>Step One</h1>
+      <p>Here is what you need to know before you use the tool for the first time: </p>
+      <ul class="list list--ul">
+        <li>Select ‘The University of Manchester’ from the list of Institutions and log in with your University username and password.   </li>
+        <li>The first time you log in you will be directed to set up your profile. </li>
+        <li>There are 2 questionnaires you can answer once you have logged in to the dashboard, one is for <strong>new students</strong> and the other is for <strong>students returning to the University.</strong>   </li>
+        <li>It takes about 15 minutes to complete a questionnaire and this will give you a personalised, confidential report about your digital capabilities.  In the report you will see your confidence level for each area, as well as suggested next steps and links to some resources you may wish to explore to further your development. </li>
+        <li>When you have completed a questionnaire, you will also have the opportunity to access a digital badge that you can add this to your CV or portfolio.</li>
+      </ul>
+     
+      <!-- <button class="btn btn--primary" aria-controls="popover-example">How to use the Jisc tool</button> -->
+    
+        <button class="btn btn--primary" href="https://jisc.potential.ly/">Use the tool</button>
+      
 
-    <li class="accordion__item js-accordion__item">
+<!-- POP OVER FOR EXTRA INFO - IS THIS NEEDED?
+  <div id="popover-example" class="popover bg padding-sm radius-md shadow-md js-popover js-tab-focus" role="dialog">
+  <div class="text-component text-sm">
+    <h1 class="text-md">How to</h1>
+    <p>
+     
+      
+      <ol class="list list--ol">
+        <li>Click on the Login button</li>
+
+      <li>Select The University of Manchester from the drop-down list of Institutions and click on the Continue button</li>
+      
+      <li>This will take you to a University of Manchester login page where you can login with your University username and password</li>
+      
+      <li>The first time you login you will be asked to create an account
+  
+      <li>Once you have created your account you will be able to access 2 questionnaires from the dashboard.  One is more suited to students who are new to Higher Education and the other to current students. </li>
+        </ol>
+    </li></p>
+  </div>
+</div> -->
+    </article>
+  </div>
+</section>
+
+<section class="padding-y-xl bg-accent color-bg">
+  <div class="container max-width-sm">
+    <article class="text-component line-height-lg v-space-md">
+      <h1>Step two</h1>
+      <p class="color-black">Read your report, identify and reflect on the areas you would like to develop further</p>
+      <p class="color-black">
+        These might be directly related to your studies or future plans, or they may focus on a different area you would like to explore.  Have a look at the ‘Next steps’ and ‘Online resources’ suggested within your report.  Further resources are also signposted below, in Section 4, to support your continuing development. 
+      </p>
+         
+        
+        <h3>Create a plan</h3>
+        <p class="color-black">
+        An essential part of reflection is creating an action plan.  Using or adapting a template like this can be a useful, as can adopting a ‘SMART’ approach to action planning.  You may also find it helpful to discuss your report and creating an action plan with your Academic Advisor 
+        </p>
+         
+        
+        <h3>Revisit your plan</h3>
+        <p class="color-black">
+        How effective has your plan been?  Do you need to update it?  Have you completed it?  Is it time for a new plan?  We recommend that returning students complete the ‘Current students’ questionnaire annually and reflect on their progress.  
+        </p>
+          
+        
+        <h3>Record your progress</h3>
+        <p class="color-black">
+        At every stage of your student journey, it is helpful to keep a record of activities you have done and how they have supported your development.  This might involve updating a portfolio or CV.  This blog from the University’s Careers Service gives helpful examples of how you can evidence your digital capabilities when updating your CV. </p>
+    </article>
+  </div>
+</section>
+
+<section class="padding-y-xl">
+  <div class="container max-width-sm">
+    <article class="text-component line-height-lg v-space-md">
+      <h1>Show me some more resources to support my digital development </h1>
+      <p>
+        You will be supported during your studies to gain the capabilities that are relevant to you and these will take time to develop.  We are all continually developing our digital capabilities, this is part of life-long learning.  You can revisit this MLE resource the Discovery tool as often as is helpful throughout your time at The University of Manchester and we will continue to add to the resources available here to support your digital journey. 
+        
+         </p>
+    </article>
+  </div>
+</section>
+
+
+<section class="padding-y-xl">
+  <div class="container max-width-sm">
+    <!-- below is the accordion which will hold our dynamic content -->
+  <ul id="acco" class="" data-animation="on" data-multi-items="on" data-deep-link="on" style="display:none">
+
+    <!-- below is the template for an accordion section - edit this to update all sections -->
+    <!-- BEGIN section template -->
+    <li class="accordion__item js-accordion__item template-section" style="display:none">
       <button class="reset accordion__header padding-y-sm padding-x-md js-tab-focus" type="button">
-        <span class="text-md">Cool infomation about stuff</span>
+        <span class="text-md template-tag"><!-- TAG will go here --></span>
   
         <svg class="icon accordion__icon-arrow no-js:is-hidden" viewBox="0 0 16 16" aria-hidden="true">
           <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10">
@@ -92,40 +173,123 @@ The tabbed area below will take you through
         </svg>
       </button>
   
-      <div class="accordion__panel js-accordion__panel">
-        <div class="text-component padding-top-xxxs padding-x-md padding-bottom-md">
-          <a class="link-card flex flex-column bg radius-md" href="#0" aria-label="Link label">
-            <div class="padding-md">
-              <div class="flex flex-wrap gap-xs items-center">
-                <figure>
-                  
-                  <svg class="block color-primary" width="72" height="72" viewBox="0 0 72 72">
-                    <circle fill="currentColor" opacity="0.15" cx="36" cy="36" r="36"/>
-                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
-                      <path d="M45,49h6V43.562a2,2,0,0,0-1.515-1.941l-5.833-1.458a1,1,0,0,1-.747-.829l-.412-2.881A6,6,0,0,0,46,31V28.252A6.167,6.167,0,0,0,40.185,22,5.973,5.973,0,0,0,37,22.8"/><path d="M39.549,43.586l-4.925-1.408a1,1,0,0,1-.716-.82l-.415-2.9S37.219,38.734,39,37a10.227,10.227,0,0,1-2-6.738,6.185,6.185,0,0,0-5.761-6.257,6,6,0,0,0-6.234,5.756c0,.08,0,.159,0,.239a10.45,10.45,0,0,1-2,7c1.781,1.734,5.507,1.453,5.507,1.453l-.415,2.9a1,1,0,0,1-.716.82l-4.925,1.408A2,2,0,0,0,21,45.509V49H41V45.509A2,2,0,0,0,39.549,43.586Z"/>
-                    </g>
-                  </svg> 
-                </figure>
-          
-                <div class="line-height-xs">
-                  <p class="text-lg font-semibold color-contrast-higher">1,354</p>
-                  <p class="color-contrast-medium margin-top-xxxs">Users</p>
-                </div>
-              </div>
-            </div>
-          
-            <div class="link-card__footer margin-top-auto border-top border-contrast-lower">
-              <p class="text-sm">View</p>
-          
-              <div>
-                <svg class="icon icon--sm" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12" /><polyline points="15 6 21 12 15 18"/></g></svg>
-              </div>
-            </div>
-          </a>
+      <div class="accordion__panel js-accordion__panel template-deeplink">
+        <div class="text-component padding-top-xxxs padding-x-md padding-bottom-md template-contents">
+          <!-- this is where the cards will go -->
         </div>
       </div>
+
     </li>
+    <!-- END section template -->  
+  </ul>
+  </div>
+</section>
+
+
+</div>
+<div></div>
+<div class="flex flex-wrap gap-sm items-center"></div>
+<div class="card-v10 card-v10--state-1">
+  <a class="card-v10__img-link radius-lg shadow-lg" href="#0">
+    <img src="assets/icons/002-designtools.png" alt="Image description">
+  </a>
+
+  <div class="card-v10__content-wrapper">
+    <div class="card-v10__content bg shadow-xs radius-lg">
+      <div class="card-v10__body">
+        <p class="card-v10__label text-uppercase color-primary letter-spacing-md">Category</p>
+
+        <div class="text-component">
+          <h1 class="card-v10__title">1. Do this thing first</h1>
+          <p class="card-v10__excerpt color-contrast-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card-v10 card-v10--state-1">
+  <a class="card-v10__img-link radius-lg shadow-lg" href="#0">
+    <img src="assets/icons/002-designtools.png" alt="Image description">
+  </a>
+
+  <div class="card-v10__content-wrapper">
+    <div class="card-v10__content bg shadow-xs radius-lg">
+      <div class="card-v10__body">
+        <p class="card-v10__label text-uppercase color-primary letter-spacing-md">Be excellent</p>
+
+        <div class="text-component">
+          <h1 class="card-v10__title">2. Do this thing second</h1>
+          <p class="card-v10__excerpt color-contrast-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- below is the template for a card - edit this to change all cards. for any changes to things like colours icons, I can help add that later -->
+  <!-- BEGIN card template -->
+  <a class="link-card flex flex-column bg radius-md template-link" target="_blank" href="" aria-label="External resource" style="display:none"><!-- LINK will go in here -->
+    <div class="padding-md">
+      <div class="flex flex-wrap gap-xs items-center">
+        <figure>
+          
+          <svg class="block color-primary" width="72" height="72" viewBox="0 0 72 72">
+            <circle fill="currentColor" opacity="0.15" cx="36" cy="36" r="36"/>
+            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+              <path d="M45,49h6V43.562a2,2,0,0,0-1.515-1.941l-5.833-1.458a1,1,0,0,1-.747-.829l-.412-2.881A6,6,0,0,0,46,31V28.252A6.167,6.167,0,0,0,40.185,22,5.973,5.973,0,0,0,37,22.8"/><path d="M39.549,43.586l-4.925-1.408a1,1,0,0,1-.716-.82l-.415-2.9S37.219,38.734,39,37a10.227,10.227,0,0,1-2-6.738,6.185,6.185,0,0,0-5.761-6.257,6,6,0,0,0-6.234,5.756c0,.08,0,.159,0,.239a10.45,10.45,0,0,1-2,7c1.781,1.734,5.507,1.453,5.507,1.453l-.415,2.9a1,1,0,0,1-.716.82l-4.925,1.408A2,2,0,0,0,21,45.509V49H41V45.509A2,2,0,0,0,39.549,43.586Z"/>
+            </g>
+          </svg> 
+        </figure>
   
+        <div class="line-height-xs">
+          <p class="text-lg font-semibold color-contrast-higher template-title"><!-- TITLE will go here --></p>
+          <p class="color-contrast-medium margin-top-xxxs template-desc"><!-- DESC will go here --></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="link-card__footer margin-top-auto border-top border-contrast-lower">
+      <p class="text-sm">View</p>
+  
+      <div>
+        <svg class="icon icon--sm" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12" /><polyline points="15 6 21 12 15 18"/></g></svg>
+      </div>
+    </div>
+  </a>
+  <!-- END card template -->
+
+
+  <!-- below is the accordion which will hold our dynamic content -->
+  <ul id="acco" class="" data-animation="on" data-multi-items="on" data-deep-link="on" style="display:none">
+
+    <!-- below is the template for an accordion section - edit this to update all sections -->
+    <!-- BEGIN section template -->
+    <li class="accordion__item js-accordion__item template-section" style="display:none">
+      <button class="reset accordion__header padding-y-sm padding-x-md js-tab-focus" type="button">
+        <span class="text-md template-tag"><!-- TAG will go here --></span>
+  
+        <svg class="icon accordion__icon-arrow no-js:is-hidden" viewBox="0 0 16 16" aria-hidden="true">
+          <g class="icon__group" fill="none" stroke="currentColor" stroke-linecap="square" stroke-miterlimit="10">
+            <path d="M2 2l12 12" />
+            <path d="M14 2L2 14" />
+          </g>
+        </svg>
+      </button>
+  
+      <div class="accordion__panel js-accordion__panel template-deeplink">
+        <div class="text-component padding-top-xxxs padding-x-md padding-bottom-md template-contents">
+          <!-- this is where the cards will go -->
+        </div>
+      </div>
+
+    </li>
+    <!-- END section template -->  
+  </ul>
+
+
+
+    <!-- below are the rest of the original sections, commented out, but for reference -->
+  <!--
     <li class="accordion__item  js-accordion__item">
       <button class="reset accordion__header padding-y-sm padding-x-md js-tab-focus" type="button">
         <span class="text-md">lets try no cards</span>
@@ -182,12 +346,13 @@ The tabbed area below will take you through
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum a ab quae quas optio ut officia quia? Modi at impedit dolorem est voluptatem facilis, beatae atque tenetur, soluta dolorum inventore sapiente laborum. Alias esse soluta porro distinctio aperiam, qui suscipit.</p>
         </div>
       </div>
-    </li>
-  
-  </ul>
+    </li> -->
 
 
 <script src="assets/js/scripts.js"></script>
-<script src="assets/js/components/_1_accordian.js"></script>
+<script>
+
+</script>
+<!-- <script src="assets/js/components/_1_accordian.js"></script> -->
 </body>
 </html>

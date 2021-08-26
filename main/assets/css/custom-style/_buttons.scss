@@ -4,11 +4,49 @@
 
 // --------------------------------
 
-:root {
-  --btn-padding-y: var(--space-xxs); // padding top/bottom
-  --btn-padding-x: var(--space-sm); // padding left/right
-  --btn-radius: 0.25em; // border radius
-  --btn-font-size: 1em; // font size
+:root, [data-theme="default"] {
+  // main
+  @include defineColorHSL(--color-primary-darker, 280, 100%, 10%);
+  @include defineColorHSL(--color-primary-dark, 280, 100%, 20%);
+  @include defineColorHSL(--color-primary, 280, 100%, 30%);
+  @include defineColorHSL(--color-primary-light, 280, 100%, 40%);
+  @include defineColorHSL(--color-primary-lighter, 280, 100%, 50%);
+
+  @include defineColorHSL(--color-accent-darker, 45, 100%, 40%);
+  @include defineColorHSL(--color-accent-dark, 45, 100%, 50%);
+  @include defineColorHSL(--color-accent, 45, 100%, 60%);
+  @include defineColorHSL(--color-accent-light, 45, 100%, 70%);
+  @include defineColorHSL(--color-accent-lighter, 45, 100%, 80%);
+
+  @include defineColorHSL(--color-black, 240, 8%, 12%);
+  @include defineColorHSL(--color-white, 0, 0%, 100%);
+
+  // feedback
+  @include defineColorHSL(--color-warning-darker, 46, 100%, 47%);
+  @include defineColorHSL(--color-warning-dark, 46, 100%, 50%);
+  @include defineColorHSL(--color-warning, 46, 100%, 61%);
+  @include defineColorHSL(--color-warning-light, 46, 100%, 71%);
+  @include defineColorHSL(--color-warning-lighter, 46, 100%, 80%);
+
+  @include defineColorHSL(--color-success-darker, 94, 48%, 42%);
+  @include defineColorHSL(--color-success-dark, 94, 48%, 48%);
+  @include defineColorHSL(--color-success, 94, 48%, 56%);
+  @include defineColorHSL(--color-success-light, 94, 48%, 65%);
+  @include defineColorHSL(--color-success-lighter, 94, 48%, 74%);
+
+  @include defineColorHSL(--color-error-darker, 349, 75%, 36%);
+  @include defineColorHSL(--color-error-dark, 349, 75%, 44%);
+  @include defineColorHSL(--color-error, 349, 75%, 51%);
+  @include defineColorHSL(--color-error-light, 349, 75%, 59%);
+  @include defineColorHSL(--color-error-lighter, 349, 75%, 67%);
+
+  // color contrasts
+  @include defineColorHSL(--color-bg, 0, 0%, 100%);
+  @include defineColorHSL(--color-contrast-lower, 0, 0%, 95%);
+  @include defineColorHSL(--color-contrast-low, 240, 1%, 83%);
+  @include defineColorHSL(--color-contrast-medium, 240, 1%, 48%);
+  @include defineColorHSL(--color-contrast-high, 240, 4%, 20%);
+  @include defineColorHSL(--color-contrast-higher, 240, 8%, 12%);
 }
 
 .btn { // style affecting all buttons
@@ -17,6 +55,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   transition: .2s;
+  padding-top: 20px;
+  padding-bottom: 20px;
   
   &:hover {
     cursor: pointer;
