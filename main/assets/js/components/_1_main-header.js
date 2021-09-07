@@ -14,7 +14,6 @@
       //detect click on nav trigger
       trigger.addEventListener("click", function(event) {
         event.preventDefault();
-        console.log('omg please work')
         toggleNavigation(!Util.hasClass(nav, 'header__nav--is-visible'));
       });
   
@@ -52,7 +51,6 @@
     };
   
     function toggleNavigation(bool) { // toggle navigation visibility on small device
-      console.log(bool);
       Util.toggleClass(nav, 'header__nav--is-visible', bool);
       Util.toggleClass(mainHeader[0], 'header--expanded', bool);
       trigger.setAttribute('aria-expanded', bool);
